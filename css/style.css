@@ -120,6 +120,11 @@ body {
 .app-download:nth-child(2) {
   background-image: url('../imagens/downloadApple.png');
 }
+
+.doc-footer {
+  display: flex;
+  
+}
 /* media queries */
 @media (max-width: 1024px) {
   .instagram-wrapper {
