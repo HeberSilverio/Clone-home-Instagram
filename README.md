@@ -1,6 +1,6 @@
 ### Descrição do Projeto 🎫
 
-Este repositório conte um clone da pagina de login do instagram, abordando o conceito sobre CSS FLexbox e responsividade.
+Este repositório é um clone da pagina de login do instagram, abordando o conceito sobre CSS FLexbox e responsividade.
 
 
 
