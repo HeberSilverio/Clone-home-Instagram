@@ -1,6 +1,6 @@
 # Clone Home Instagram
 
-![Netflix clone](https://raw.githubusercontent.com/HeberSilverio/Netflix-clone/main/CloneNetflix.PNG)
+![Netflix clone](https://raw.githubusercontent.com/HeberSilverio/Clone-home-Instagram/master/home-instagram.PNG)
 ### 🎫 Descrição do Projeto 
 
 Este repositório contém um clone da pagina de login do Instagram. Esta página eu construi para testar um modelo de tour guiado conhecido com introJS.
