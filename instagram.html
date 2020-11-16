@@ -1,39 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    
+    <script src="http://kit.fontawesome.com/3c789a4ec.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
-    <title>Instagram</title>
+    <!--<link rel="stylesheet" href="css/introJS.css">-->
+    
+    <link rel="stylesheet" href="css/introjs.css">
+  
+  
+ 
+  <title>Tour Guiado</title>
 </head>
 <body>
+  
     <div class="instagram-wrapper">
-        <div class="instagram-phone">
+        <div data-intro='Use seu celular para conhecer pessoas!' class="instagram-phone">
           <img src="imagens/clipart-iphone-x.png" alt="Celular">
         </div>
         <div class="instagram-continue">
-            <div class="group">
-                <img src="imagens/instagram-logo-1.png" alt="instagram logo">
-                <div class="profile-photo">
-                   <img src="imagens/Hb250x250.jpg" alt="foto do perfil">
-                </div>
-                <a href="#" class="instagram-login">Continue como Heber</a>
-                <a href="#" class="instagram-logout">Remover conta</a>
+                    <div class="group">
+                        <img src="imagens/instagram-logo-1.png" alt="instagram logo">
+                        <div class="profile-photo">
+                        <img src="imagens/Hb250x250.jpg" alt="foto do perfil">
+                        </div>
+                        <a data-intro='Crie uma conta no instagram!' href="#" class="instagram-login">Continue como Heber</a>
+                                                                     
+                       
+                        <a href="#" class="instagram-logout">Remover conta</a>
+                    </div>
+                    <div class="group">
+                        <p id="step-two" class="not-account">Não é Heber?</p>
+                        <p class="not-account">
+                            <span  class="link-blue">Alternar contas </span>
+                            ou
+                            <span class="link-blue">Inscreva-se </span>
+                        </p>
+                    </div>
+                    <div class="get-the-app">
+                        <p data-intro='E baixe o aplicativo no seu celular' class="get-app">Baixe o aplicativo</p>
+                        <a href="#" class="app-download"></a>
+                        <a href="#" class="app-download"></a>
+                        
+                    </div>   
+                </div>  
             </div>
-            <div class="group">
-                <p class="not-account">Não é Heber?</p>
-                <p class="not-account">
-                    <span class="link-blue">Alternar contas </span>
-                    ou
-                    <span class="link-blue">Inscreva-se </span>
-                </p>
-            </div>
-            <div class="get-the-app">
-                <p class="get-app">Baixe o aplicativo</p>
-                <a href="#" class="app-download"></a>
-                <a href="#" class="app-download"></a>
-            </div>
-        </div>
-    </div>
+     
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/intro.js/3.0.1/intro.min.js"></script>   
+     
+     <script>
+         introJs().start();
+     </script>
 </body>
 </html>
